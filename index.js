@@ -1,13 +1,13 @@
 'use strict';
 
-var React = require('react-native');
+var React = require('react');
 
 var {
   AppRegistry,
   View,
   StyleSheet,
   ListView,
-} = React;
+} = require('react-native');
 
 var CollectionView = React.createClass({
     groupItems: function(items, itemsPerRow) {
